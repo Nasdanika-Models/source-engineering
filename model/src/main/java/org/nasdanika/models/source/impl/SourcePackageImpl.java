@@ -17,6 +17,7 @@ import org.eclipse.emf.ecore.EReference;
 import org.eclipse.emf.ecore.impl.EPackageImpl;
 
 import org.nasdanika.models.source.GenerationMode;
+import org.nasdanika.models.source.NamedElement;
 import org.nasdanika.models.source.Position;
 import org.nasdanika.models.source.Range;
 import org.nasdanika.models.source.Source;
@@ -66,6 +67,13 @@ public class SourcePackageImpl extends EPackageImpl implements SourcePackage {
 	 * @generated
 	 */
 	private EClass sourceEClass = null;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass namedElementEClass = null;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -363,6 +371,26 @@ public class SourcePackageImpl extends EPackageImpl implements SourcePackage {
 	 * @generated
 	 */
 	@Override
+	public EClass getNamedElement() {
+		return namedElementEClass;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EAttribute getNamedElement_Name() {
+		return (EAttribute)namedElementEClass.getEStructuralFeatures().get(0);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
 	public EEnum getGenerationMode() {
 		return generationModeEEnum;
 	}
@@ -423,6 +451,9 @@ public class SourcePackageImpl extends EPackageImpl implements SourcePackage {
 		createEAttribute(sourceEClass, SOURCE__GENERATION_MODE);
 		createEOperation(sourceEClass, SOURCE___GENERATE__FUNCTION_INT);
 
+		namedElementEClass = createEClass(NAMED_ELEMENT);
+		createEAttribute(namedElementEClass, NAMED_ELEMENT__NAME);
+
 		// Create enums
 		generationModeEEnum = createEEnum(GENERATION_MODE);
 	}
@@ -465,6 +496,7 @@ public class SourcePackageImpl extends EPackageImpl implements SourcePackage {
 		positionEClass.getEGenericSuperTypes().add(g1);
 		rangeEClass.getESuperTypes().add(theNcorePackage.getMarked());
 		sourceEClass.getESuperTypes().add(this.getRange());
+		namedElementEClass.getESuperTypes().add(this.getSource());
 
 		// Initialize classes, features, and operations; add parameters
 		initEClass(tokenSourceEClass, Function.class, "TokenSource", IS_ABSTRACT, IS_INTERFACE, !IS_GENERATED_INSTANCE_CLASS, "java.util.function.Function<String, String>");
@@ -508,6 +540,9 @@ public class SourcePackageImpl extends EPackageImpl implements SourcePackage {
 		op = initEOperation(getSource__Generate__Function_int(), ecorePackage.getEString(), "generate", 0, 1, IS_UNIQUE, IS_ORDERED);
 		addEParameter(op, this.getTokenSource(), "tokenSource", 0, 1, IS_UNIQUE, IS_ORDERED);
 		addEParameter(op, ecorePackage.getEInt(), "indent", 0, 1, IS_UNIQUE, IS_ORDERED);
+
+		initEClass(namedElementEClass, NamedElement.class, "NamedElement", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+		initEAttribute(getNamedElement_Name(), ecorePackage.getEString(), "name", null, 1, 1, NamedElement.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		// Initialize enums and add enum literals
 		initEEnum(generationModeEEnum, GenerationMode.class, "GenerationMode");

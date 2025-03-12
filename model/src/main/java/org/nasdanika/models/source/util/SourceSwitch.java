@@ -9,6 +9,7 @@ import org.eclipse.emf.ecore.EPackage;
 
 import org.eclipse.emf.ecore.util.Switch;
 
+import org.nasdanika.models.source.NamedElement;
 import org.nasdanika.models.source.Position;
 import org.nasdanika.models.source.Range;
 import org.nasdanika.models.source.Source;
@@ -109,6 +110,16 @@ public class SourceSwitch<T1> extends Switch<T1> {
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
+			case SourcePackage.NAMED_ELEMENT: {
+				NamedElement namedElement = (NamedElement)theEObject;
+				T1 result = caseNamedElement(namedElement);
+				if (result == null) result = caseSource(namedElement);
+				if (result == null) result = caseRange(namedElement);
+				if (result == null) result = caseMarked(namedElement);
+				if (result == null) result = caseIMarked(namedElement);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
 			default: return defaultCase(theEObject);
 		}
 	}
@@ -185,6 +196,21 @@ public class SourceSwitch<T1> extends Switch<T1> {
 	 * @generated
 	 */
 	public T1 caseSource(Source object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Named Element</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Named Element</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T1 caseNamedElement(NamedElement object) {
 		return null;
 	}
 

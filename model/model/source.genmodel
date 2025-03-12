@@ -58,5 +58,8 @@
         <genParameters ecoreParameter="source.ecore#//Source/generate/indent"/>
       </genOperations>
     </genClasses>
+    <genClasses ecoreClass="source.ecore#//NamedElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute source.ecore#//NamedElement/name"/>
+    </genClasses>
   </genPackages>
 </genmodel:GenModel>

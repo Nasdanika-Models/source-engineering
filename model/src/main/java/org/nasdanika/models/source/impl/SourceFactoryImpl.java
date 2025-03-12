@@ -12,6 +12,7 @@ import org.eclipse.emf.ecore.impl.EFactoryImpl;
 import org.eclipse.emf.ecore.plugin.EcorePlugin;
 
 import org.nasdanika.models.source.GenerationMode;
+import org.nasdanika.models.source.NamedElement;
 import org.nasdanika.models.source.Position;
 import org.nasdanika.models.source.Range;
 import org.nasdanika.models.source.Source;
@@ -65,6 +66,7 @@ public class SourceFactoryImpl extends EFactoryImpl implements SourceFactory {
 			case SourcePackage.POSITION: return createPosition();
 			case SourcePackage.RANGE: return createRange();
 			case SourcePackage.SOURCE: return createSource();
+			case SourcePackage.NAMED_ELEMENT: return createNamedElement();
 			default:
 				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier");
 		}
@@ -131,6 +133,17 @@ public class SourceFactoryImpl extends EFactoryImpl implements SourceFactory {
 	public Source createSource() {
 		SourceImpl source = new SourceImpl();
 		return source;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public NamedElement createNamedElement() {
+		NamedElementImpl namedElement = new NamedElementImpl();
+		return namedElement;
 	}
 
 	/**

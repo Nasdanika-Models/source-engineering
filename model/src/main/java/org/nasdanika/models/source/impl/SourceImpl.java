@@ -189,6 +189,21 @@ public class SourceImpl extends RangeImpl implements Source {
 	public void setGenerationMode(GenerationMode newGenerationMode) {
 		eDynamicSet(SourcePackage.SOURCE__GENERATION_MODE, SourcePackage.Literals.SOURCE__GENERATION_MODE, newGenerationMode);
 	}
+	
+	protected String getSource(int indent) {
+		StringBuilder builder = new StringBuilder();
+		String source = getSource();
+        if (!Util.isBlank(source)) {
+        	String[] lines = source.split("\\R");					            	
+        	for (String line: lines) {
+	            builder
+	            	.append(indent(indent))
+	            	.append(line)
+	            	.append(System.lineSeparator());
+        	}
+        }
+		return builder.toString();
+	}
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -197,7 +212,7 @@ public class SourceImpl extends RangeImpl implements Source {
 	 */
 	@Override
 	public String generate(Function<String, String> tokenSource, int indent) {
-		String source = getSource();
+		String source = getSource(indent);
 		if (this.isInterpolate()) {
 			source = Util.interpolate(source, tokenSource);;
 		}
