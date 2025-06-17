@@ -2,497 +2,507 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" >
   <url>
     <loc>https://source-engineering.models.nasdanika.org/circular-layout-graph-with-dependencies-and-subpackages.html</loc>
-    <lastmod>2025-05-21T21:30:46-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.315-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/circular-layout-graph.html</loc>
-    <lastmod>2025-05-21T21:30:45.998-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.311-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/classifiers.html</loc>
-    <lastmod>2025-05-21T21:30:45.994-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.308-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/default-graph-with-dependencies-and-subpackages.html</loc>
-    <lastmod>2025-05-21T21:30:46-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.314-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/default-graph.html</loc>
-    <lastmod>2025-05-21T21:30:45.997-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.311-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/diagram.html</loc>
-    <lastmod>2025-05-21T21:30:45.996-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.310-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://source-engineering.models.nasdanika.org/force-layout-graph-3d-with-dependencies-and-subpackages.html</loc>
+    <lastmod>2025-06-16T00:04:30.316-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://source-engineering.models.nasdanika.org/force-layout-graph-3d.html</loc>
+    <lastmod>2025-06-16T00:04:30.313-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/force-layout-graph-with-dependencies-and-subpackages.html</loc>
-    <lastmod>2025-05-21T21:30:46.001-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.316-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/force-layout-graph.html</loc>
-    <lastmod>2025-05-21T21:30:45.999-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.312-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/glossary.html</loc>
-    <lastmod>2025-05-21T21:30:46.004-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.319-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.892-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.205-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Comparable/circular-layout-graph.html</loc>
-    <lastmod>2025-05-21T21:30:45.899-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.213-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Comparable/default-graph.html</loc>
-    <lastmod>2025-05-21T21:30:45.898-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.213-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Comparable/diagram.html</loc>
-    <lastmod>2025-05-21T21:30:45.897-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.212-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Comparable/force-layout-graph.html</loc>
-    <lastmod>2025-05-21T21:30:45.899-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.214-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Comparable/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.893-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.207-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Comparable/inheritance.html</loc>
-    <lastmod>2025-05-21T21:30:45.896-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.211-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Comparable/type-parameters.html</loc>
-    <lastmod>2025-05-21T21:30:45.893-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.208-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/GenerationMode/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.900-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.215-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/GenerationMode/references/eLiterals/CONCATENATE/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.904-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.220-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/GenerationMode/references/eLiterals/CONTENTS/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.903-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.219-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/GenerationMode/references/eLiterals/MERGE/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.906-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.222-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/GenerationMode/references/eLiterals/NONE/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.902-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.216-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/GenerationMode/references/eLiterals/SOURCE/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.903-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.218-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/NamedElement/attributes.html</loc>
-    <lastmod>2025-05-21T21:30:45.909-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.224-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/NamedElement/circular-layout-graph.html</loc>
-    <lastmod>2025-05-21T21:30:45.916-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.231-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/NamedElement/default-graph.html</loc>
-    <lastmod>2025-05-21T21:30:45.916-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.230-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/NamedElement/diagram.html</loc>
-    <lastmod>2025-05-21T21:30:45.915-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.230-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/NamedElement/force-layout-graph.html</loc>
-    <lastmod>2025-05-21T21:30:45.917-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.232-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/NamedElement/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.908-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.223-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/NamedElement/inheritance.html</loc>
-    <lastmod>2025-05-21T21:30:45.912-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.226-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/NamedElement/load-specification.html</loc>
-    <lastmod>2025-05-21T21:30:45.918-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.233-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/NamedElement/operations.html</loc>
-    <lastmod>2025-05-21T21:30:45.913-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.227-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/NamedElement/references/eStructuralFeatures/name/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.911-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.226-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/NamedElement/references.html</loc>
-    <lastmod>2025-05-21T21:30:45.914-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.228-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Position/attributes.html</loc>
-    <lastmod>2025-05-21T21:30:45.919-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.235-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Position/circular-layout-graph.html</loc>
-    <lastmod>2025-05-21T21:30:45.928-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.242-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Position/default-graph.html</loc>
-    <lastmod>2025-05-21T21:30:45.928-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.241-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Position/diagram.html</loc>
-    <lastmod>2025-05-21T21:30:45.927-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.241-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Position/force-layout-graph.html</loc>
-    <lastmod>2025-05-21T21:30:45.929-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.243-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Position/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.919-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.234-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Position/inheritance.html</loc>
-    <lastmod>2025-05-21T21:30:45.926-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.239-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Position/load-specification.html</loc>
-    <lastmod>2025-05-21T21:30:45.930-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.244-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Position/references/eStructuralFeatures/column/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.922-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.236-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Position/references/eStructuralFeatures/exclusive/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.923-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.237-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Position/references/eStructuralFeatures/line/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.923-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.238-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Range/circular-layout-graph.html</loc>
-    <lastmod>2025-05-21T21:30:45.966-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.279-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Range/default-graph.html</loc>
-    <lastmod>2025-05-21T21:30:45.966-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.279-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Range/diagram.html</loc>
-    <lastmod>2025-05-21T21:30:45.965-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.278-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Range/force-layout-graph.html</loc>
-    <lastmod>2025-05-21T21:30:45.967-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.280-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Range/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.931-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.244-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Range/inheritance.html</loc>
-    <lastmod>2025-05-21T21:30:45.931-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.245-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Range/load-specification.html</loc>
-    <lastmod>2025-05-21T21:30:45.968-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.281-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Range/operations.html</loc>
-    <lastmod>2025-05-21T21:30:45.933-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.246-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Range/references/eOperations/contains-0/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.936-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.249-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Range/references/eOperations/contains-0/parameters.html</loc>
-    <lastmod>2025-05-21T21:30:45.937-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.250-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Range/references/eOperations/contains-0/references/eParameters/range/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.940-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.253-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Range/references/eOperations/contains-1/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.941-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.253-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Range/references/eOperations/contains-1/parameters.html</loc>
-    <lastmod>2025-05-21T21:30:45.941-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.255-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Range/references/eOperations/contains-1/references/eParameters/position/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.944-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.258-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Range/references/eOperations/offset-5/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.958-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.271-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Range/references/eOperations/offset-5/parameters.html</loc>
-    <lastmod>2025-05-21T21:30:45.958-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.271-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Range/references/eOperations/offset-5/references/eParameters/position/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.960-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.272-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Range/references/eOperations/overlaps-2/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.946-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.260-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Range/references/eOperations/overlaps-2/parameters.html</loc>
-    <lastmod>2025-05-21T21:30:45.946-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.260-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Range/references/eOperations/overlaps-2/references/eParameters/range/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.949-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.262-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Range/references/eOperations/text-3/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.950-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.263-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Range/references/eOperations/text-3/parameters.html</loc>
-    <lastmod>2025-05-21T21:30:45.951-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.264-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Range/references/eOperations/text-3/references/eParameters/source/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.952-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.266-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Range/references/eOperations/text-4/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.953-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.267-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Range/references/eOperations/text-4/parameters.html</loc>
-    <lastmod>2025-05-21T21:30:45.954-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.268-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Range/references/eOperations/text-4/references/eParameters/source/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.957-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.270-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Range/references/eStructuralFeatures/begin/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.961-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.274-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Range/references/eStructuralFeatures/end/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.962-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.275-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Range/references.html</loc>
-    <lastmod>2025-05-21T21:30:45.963-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.276-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Source/attributes.html</loc>
-    <lastmod>2025-05-21T21:30:45.970-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.283-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Source/circular-layout-graph.html</loc>
-    <lastmod>2025-05-21T21:30:45.987-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.301-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Source/default-graph.html</loc>
-    <lastmod>2025-05-21T21:30:45.986-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.300-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Source/diagram.html</loc>
-    <lastmod>2025-05-21T21:30:45.985-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.300-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Source/force-layout-graph.html</loc>
-    <lastmod>2025-05-21T21:30:45.988-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.302-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Source/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.969-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.282-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Source/inheritance.html</loc>
-    <lastmod>2025-05-21T21:30:45.981-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.296-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Source/load-specification.html</loc>
-    <lastmod>2025-05-21T21:30:45.988-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.303-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Source/operations.html</loc>
-    <lastmod>2025-05-21T21:30:45.982-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.297-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Source/references/eOperations/generate-6/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.977-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.291-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Source/references/eOperations/generate-6/parameters.html</loc>
-    <lastmod>2025-05-21T21:30:45.978-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.292-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Source/references/eOperations/generate-6/references/eParameters/indent/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.980-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.295-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Source/references/eOperations/generate-6/references/eParameters/tokenSource/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.980-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.293-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Source/references/eStructuralFeatures/children/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.976-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.289-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Source/references/eStructuralFeatures/generationMode/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.971-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.285-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Source/references/eStructuralFeatures/indent/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.972-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.285-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Source/references/eStructuralFeatures/interpolate/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.973-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.286-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Source/references/eStructuralFeatures/source/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.975-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.288-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/Source/references.html</loc>
-    <lastmod>2025-05-21T21:30:45.983-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.298-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/TokenSource/circular-layout-graph.html</loc>
-    <lastmod>2025-05-21T21:30:45.992-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.306-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/TokenSource/default-graph.html</loc>
-    <lastmod>2025-05-21T21:30:45.991-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.305-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/TokenSource/diagram.html</loc>
-    <lastmod>2025-05-21T21:30:45.990-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.304-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/TokenSource/force-layout-graph.html</loc>
-    <lastmod>2025-05-21T21:30:45.992-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.307-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/references/eClassifiers/TokenSource/index.html</loc>
-    <lastmod>2025-05-21T21:30:45.989-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.304-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://source-engineering.models.nasdanika.org/search.html</loc>
-    <lastmod>2025-05-21T21:30:46.003-04:00</lastmod>
+    <lastmod>2025-06-16T00:04:30.318-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
