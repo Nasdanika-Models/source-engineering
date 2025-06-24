@@ -53,6 +53,7 @@
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute source.ecore#//Source/indent"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute source.ecore#//Source/interpolate"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute source.ecore#//Source/generationMode"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute source.ecore#//Source/indentFactor"/>
       <genOperations ecoreOperation="source.ecore#//Source/generate">
         <genParameters ecoreParameter="source.ecore#//Source/generate/tokenSource"/>
         <genParameters ecoreParameter="source.ecore#//Source/generate/indent"/>

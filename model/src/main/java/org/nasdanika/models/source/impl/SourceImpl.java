@@ -34,6 +34,7 @@ import org.nasdanika.models.source.SourcePackage;
  *   <li>{@link org.nasdanika.models.source.impl.SourceImpl#getIndent <em>Indent</em>}</li>
  *   <li>{@link org.nasdanika.models.source.impl.SourceImpl#isInterpolate <em>Interpolate</em>}</li>
  *   <li>{@link org.nasdanika.models.source.impl.SourceImpl#getGenerationMode <em>Generation Mode</em>}</li>
+ *   <li>{@link org.nasdanika.models.source.impl.SourceImpl#getIndentFactor <em>Indent Factor</em>}</li>
  * </ul>
  *
  * @generated
@@ -78,6 +79,16 @@ public class SourceImpl extends RangeImpl implements Source {
 	 * @ordered
 	 */
 	protected static final GenerationMode GENERATION_MODE_EDEFAULT = GenerationMode.MERGE;
+
+	/**
+	 * The default value of the '{@link #getIndentFactor() <em>Indent Factor</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getIndentFactor()
+	 * @generated
+	 * @ordered
+	 */
+	protected static final int INDENT_FACTOR_EDEFAULT = 0; // TODO The default value literal "    " is not valid.
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -190,6 +201,26 @@ public class SourceImpl extends RangeImpl implements Source {
 		eDynamicSet(SourcePackage.SOURCE__GENERATION_MODE, SourcePackage.Literals.SOURCE__GENERATION_MODE, newGenerationMode);
 	}
 	
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public int getIndentFactor() {
+		return (Integer)eDynamicGet(SourcePackage.SOURCE__INDENT_FACTOR, SourcePackage.Literals.SOURCE__INDENT_FACTOR, true, true);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public void setIndentFactor(int newIndentFactor) {
+		eDynamicSet(SourcePackage.SOURCE__INDENT_FACTOR, SourcePackage.Literals.SOURCE__INDENT_FACTOR, newIndentFactor);
+	}
+
 	protected String getSource(int indent) {
 		StringBuilder builder = new StringBuilder();
 		String source = getSource();
@@ -396,7 +427,7 @@ public class SourceImpl extends RangeImpl implements Source {
 	protected List<Source> generateContents(Function<String, String> tokenSource, int indent) {
 		List<Source> contents = new ArrayList<>();
 		for (Source child: getChildren()) {
-			String childGeneratedSource = child.generate(tokenSource, indent);
+			String childGeneratedSource = child.generate(tokenSource, indent + child.getIndentFactor());
 			if (childGeneratedSource != null) { // Blank string may be significant, so checking for null, not blank
 				Source generated = Source.create(childGeneratedSource, child);
 				contents.add(generated);
@@ -438,6 +469,8 @@ public class SourceImpl extends RangeImpl implements Source {
 				return isInterpolate();
 			case SourcePackage.SOURCE__GENERATION_MODE:
 				return getGenerationMode();
+			case SourcePackage.SOURCE__INDENT_FACTOR:
+				return getIndentFactor();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -467,6 +500,9 @@ public class SourceImpl extends RangeImpl implements Source {
 			case SourcePackage.SOURCE__GENERATION_MODE:
 				setGenerationMode((GenerationMode)newValue);
 				return;
+			case SourcePackage.SOURCE__INDENT_FACTOR:
+				setIndentFactor((Integer)newValue);
+				return;
 		}
 		super.eSet(featureID, newValue);
 	}
@@ -494,6 +530,9 @@ public class SourceImpl extends RangeImpl implements Source {
 			case SourcePackage.SOURCE__GENERATION_MODE:
 				setGenerationMode(GENERATION_MODE_EDEFAULT);
 				return;
+			case SourcePackage.SOURCE__INDENT_FACTOR:
+				setIndentFactor(INDENT_FACTOR_EDEFAULT);
+				return;
 		}
 		super.eUnset(featureID);
 	}
@@ -516,6 +555,8 @@ public class SourceImpl extends RangeImpl implements Source {
 				return isInterpolate() != INTERPOLATE_EDEFAULT;
 			case SourcePackage.SOURCE__GENERATION_MODE:
 				return getGenerationMode() != GENERATION_MODE_EDEFAULT;
+			case SourcePackage.SOURCE__INDENT_FACTOR:
+				return getIndentFactor() != INDENT_FACTOR_EDEFAULT;
 		}
 		return super.eIsSet(featureID);
 	}

@@ -361,6 +361,16 @@ public class SourcePackageImpl extends EPackageImpl implements SourcePackage {
 	 * @generated
 	 */
 	@Override
+	public EAttribute getSource_IndentFactor() {
+		return (EAttribute)sourceEClass.getEStructuralFeatures().get(5);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
 	public EOperation getSource__Generate__Function_int() {
 		return sourceEClass.getEOperations().get(0);
 	}
@@ -449,6 +459,7 @@ public class SourcePackageImpl extends EPackageImpl implements SourcePackage {
 		createEAttribute(sourceEClass, SOURCE__INDENT);
 		createEAttribute(sourceEClass, SOURCE__INTERPOLATE);
 		createEAttribute(sourceEClass, SOURCE__GENERATION_MODE);
+		createEAttribute(sourceEClass, SOURCE__INDENT_FACTOR);
 		createEOperation(sourceEClass, SOURCE___GENERATE__FUNCTION_INT);
 
 		namedElementEClass = createEClass(NAMED_ELEMENT);
@@ -536,6 +547,7 @@ public class SourcePackageImpl extends EPackageImpl implements SourcePackage {
 		initEAttribute(getSource_Indent(), ecorePackage.getEString(), "indent", "    ", 0, 1, Source.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getSource_Interpolate(), ecorePackage.getEBoolean(), "interpolate", null, 0, 1, Source.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getSource_GenerationMode(), this.getGenerationMode(), "generationMode", "MERGE", 0, 1, Source.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getSource_IndentFactor(), ecorePackage.getEInt(), "indentFactor", "0", 0, 1, Source.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		op = initEOperation(getSource__Generate__Function_int(), ecorePackage.getEString(), "generate", 0, 1, IS_UNIQUE, IS_ORDERED);
 		addEParameter(op, this.getTokenSource(), "tokenSource", 0, 1, IS_UNIQUE, IS_ORDERED);

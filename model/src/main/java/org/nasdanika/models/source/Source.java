@@ -21,6 +21,7 @@ import org.eclipse.emf.ecore.util.EcoreUtil;
  *   <li>{@link org.nasdanika.models.source.Source#getIndent <em>Indent</em>}</li>
  *   <li>{@link org.nasdanika.models.source.Source#isInterpolate <em>Interpolate</em>}</li>
  *   <li>{@link org.nasdanika.models.source.Source#getGenerationMode <em>Generation Mode</em>}</li>
+ *   <li>{@link org.nasdanika.models.source.Source#getIndentFactor <em>Indent Factor</em>}</li>
  * </ul>
  *
  * @see org.nasdanika.models.source.SourcePackage#getSource()
@@ -132,6 +133,29 @@ public interface Source extends Range {
 	 * @generated
 	 */
 	void setGenerationMode(GenerationMode value);
+
+	/**
+	 * Returns the value of the '<em><b>Indent Factor</b></em>' attribute.
+	 * The default value is <code>"0"</code>.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Indent Factor</em>' attribute.
+	 * @see #setIndentFactor(int)
+	 * @see org.nasdanika.models.source.SourcePackage#getSource_IndentFactor()
+	 * @model default="0"
+	 * @generated
+	 */
+	int getIndentFactor();
+
+	/**
+	 * Sets the value of the '{@link org.nasdanika.models.source.Source#getIndentFactor <em>Indent Factor</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Indent Factor</em>' attribute.
+	 * @see #getIndentFactor()
+	 * @generated
+	 */
+	void setIndentFactor(int value);
 
 	/**
 	 * <!-- begin-user-doc -->

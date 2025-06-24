@@ -363,13 +363,22 @@ public interface SourcePackage extends EPackage {
 	int SOURCE__GENERATION_MODE = RANGE_FEATURE_COUNT + 4;
 
 	/**
+	 * The feature id for the '<em><b>Indent Factor</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int SOURCE__INDENT_FACTOR = RANGE_FEATURE_COUNT + 5;
+
+	/**
 	 * The number of structural features of the '<em>Source</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int SOURCE_FEATURE_COUNT = RANGE_FEATURE_COUNT + 5;
+	int SOURCE_FEATURE_COUNT = RANGE_FEATURE_COUNT + 6;
 
 	/**
 	 * The operation id for the '<em>Contains</em>' operation.
@@ -524,6 +533,15 @@ public interface SourcePackage extends EPackage {
 	 * @ordered
 	 */
 	int NAMED_ELEMENT__GENERATION_MODE = SOURCE__GENERATION_MODE;
+
+	/**
+	 * The feature id for the '<em><b>Indent Factor</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int NAMED_ELEMENT__INDENT_FACTOR = SOURCE__INDENT_FACTOR;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -849,6 +867,17 @@ public interface SourcePackage extends EPackage {
 	EAttribute getSource_GenerationMode();
 
 	/**
+	 * Returns the meta object for the attribute '{@link org.nasdanika.models.source.Source#getIndentFactor <em>Indent Factor</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Indent Factor</em>'.
+	 * @see org.nasdanika.models.source.Source#getIndentFactor()
+	 * @see #getSource()
+	 * @generated
+	 */
+	EAttribute getSource_IndentFactor();
+
+	/**
 	 * Returns the meta object for the '{@link org.nasdanika.models.source.Source#generate(java.util.function.Function, int) <em>Generate</em>}' operation.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -1089,6 +1118,14 @@ public interface SourcePackage extends EPackage {
 		 * @generated
 		 */
 		EAttribute SOURCE__GENERATION_MODE = eINSTANCE.getSource_GenerationMode();
+
+		/**
+		 * The meta object literal for the '<em><b>Indent Factor</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SOURCE__INDENT_FACTOR = eINSTANCE.getSource_IndentFactor();
 
 		/**
 		 * The meta object literal for the '<em><b>Generate</b></em>' operation.
